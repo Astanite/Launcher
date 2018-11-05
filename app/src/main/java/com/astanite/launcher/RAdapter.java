@@ -13,9 +13,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.astanite.launcher.AppInfo;
-import com.astanite.launcher.R;
-
 import java.util.ArrayList;
 import java.util.List;
 public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder> {
@@ -24,7 +21,6 @@ public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView textView;
         public ImageView img;
-
 
         //This is the subclass ViewHolder which simply
         //'holds the views' for us to show on each row
@@ -48,7 +44,6 @@ public class RAdapter extends RecyclerView.Adapter<RAdapter.ViewHolder> {
 
         }
     }
-
 
 
     public RAdapter(Context c) {
